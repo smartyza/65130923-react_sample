@@ -9,7 +9,7 @@ import Card from "react-bootstrap/Card";
 import Table from "react-bootstrap/Table";
 import axios from "axios";
 import Common from "./common";
-import Logo from "./img/logo2.jpg";
+import Logo2 from "./img/logo2.jpg";
 const BASE_URL = Common.API_URL;
 export default class report extends Component {
   state = {
@@ -62,7 +62,7 @@ export default class report extends Component {
         <Navbar bg="primary" variant="dark">
           <Container>
             <Navbar.Brand href="#">ค้นหาเลขไปรษณีย์</Navbar.Brand>
-            <img src={Logo2} alt="" style={{width:"50px", height:"50px"}}/>
+            <img src={Logo2.jpg} alt="" style={{width:"50px", height:"50px"}}/>
             <div style={{color:"#ffffff",fontSize:"15px"}}>
               65130923 นาย สัณฑ์ธนัตถ์ พ่อค้าชำนาญ
             </div>
