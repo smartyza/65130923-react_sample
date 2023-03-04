@@ -9,6 +9,7 @@ import Card from "react-bootstrap/Card";
 import Table from "react-bootstrap/Table";
 import axios from "axios";
 import Common from "./common";
+import logo from "../img/logo.png";
 const BASE_URL = Common.API_URL;
 export default class report extends Component {
   state = {
@@ -18,6 +19,7 @@ export default class report extends Component {
     province_code: 0,
     province_name: "",
     district: [],
+    my_logo: logo
   };
   getData = async () => {
     try {
@@ -61,6 +63,7 @@ export default class report extends Component {
         <Navbar bg="primary" variant="dark">
           <Container>
             <Navbar.Brand href="#">ค้นหาเลขไปรษณีย์</Navbar.Brand>
+            <img src={this.my_logo} alt="" />
             <div style={{color:"#ffffff",fontSize:"25px"}}>
               65130923 นาย สัณฑ์ธนัตถ์ พ่อค้าชำนาญ
             </div>
