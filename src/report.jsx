@@ -64,7 +64,7 @@ export default class report extends Component {
             <Navbar.Brand href="#">ค้นหาเลขไปรษณีย์</Navbar.Brand>
             <img src={Logo2} alt="" style={{width:"50px", height:"50px"}}/>
             <div style={{color:"#ffffff",fontSize:"25px"}}>
-              65130923 นาย สัณฑ์ธนัตถ์ พ่อค้าชำนาญ2
+              65130923 นาย สัณฑ์ธนัตถ์ พ่อค้าชำนาญ
             </div>
           </Container>
         </Navbar>
