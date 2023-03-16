@@ -70,7 +70,7 @@ export default class report extends Component {
                   margin: '5px',
                   padding: '1px',
                 }} src="Image/dw.jpeg"></Image>
-              65130923 นาย สัณฑ์ธนัตถ์ พ่อค้าชำนาญ
+              65130923 นาย สัณฑ์ธนัตถ์ พ่อค้าชำนาญ สมาร์ทตี้
             </div>
           </Container>
         </Navbar>
